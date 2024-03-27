@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('bg.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh; /* Set height to fill the viewport */
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        
+        .level {
+            display: inline-block;
+            margin: 10px;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .level:hover {
+            transform: scale(1.05);
+        }
+        
+        .contact {
+            margin-top: 50px;
+        }
+        
+        .contact a {
+            display: inline-block;
+            margin: 10px;
+            color: #333;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .contact a:hover {
+            color: #4CAF50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="tips.html"><h3>comment jouer ? clicker moi</h3></a>
+        <h1>choisir une année</h1>
+        <div class="levels">
+            <a href="1900/1900.html"><div class="level">1900 (score / 10)</div></a>
+            <a href="1950/1950.html"><div class="level">1950 (score / 15)</div></a>
+            <a href="2000/2000.html"><div class="level">2000 (score / 20)</div></a>
+            <a href="2024/2024.html"><div class="level">2024 (score / 30)</div></a>
+            <a href="2100/2100.html"><div class="level">2100 (score / ??)</div></a>
+            <!-- Add more levels here -->
+        </div>
+        <div class="about">
+            <p>Bienvenue dans mon jeu ! Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter à :</p>
+            <p>Email: yassinchtioui003@gmail.com</p>
+            <p>Yassin Chtioui, 2eme science 4, Lycée Habib Thameur, sfax</p>
+        </div>
+    </div>
+</body>
+</html>
